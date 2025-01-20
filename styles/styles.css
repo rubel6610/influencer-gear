@@ -15,14 +15,16 @@
 .btn-primary{
     color:white;
     background-color: #E02C6D;
-    
+    border: none;
+}
+.navbar-brand i{
+    display: none;
 }
 
-
 nav{
-    display: flex;
-    justify-content: space-between;
-    margin:1.5rem;
+   display: flex;
+   justify-content: space-between;
+   margin:1% 5%;
 }
 .navbar-brand{
     font-size: 1.50rem;
@@ -31,26 +33,29 @@ nav{
 }
 nav ul{
     display: flex;
+    align-items: center;
+    gap: 10px; 
 }
 nav ul li{
     list-style: none;
-
+    
 }
 nav ul li a{
     text-decoration: none;
-    padding: 10px;
-    font-size: 1.25rem;
+    /* padding: 10px; */
+    font-size: 1rem;
     color: black;
+    font-weight: 400;
 }
 
 .start-journey{
     width: 90%;
     display: flex;
-    margin: 0 auto;
+    margin: 50px auto;
     align-items: center;
 }
 .journey-content{
-    width: 50%;
+    flex: 1;
 }
 .start-journey .journey-content h1{
     font-size: 2.8rem;
@@ -61,7 +66,7 @@ nav ul li a{
     font-size: 1rem;
     font-weight: 400;
     margin-bottom: 10px;
-    width: 90%;
+   
 }
 .prebook-btn{
     border-radius: 35px;
@@ -69,14 +74,25 @@ nav ul li a{
     padding: 10px 40px;
 }
 .prebook-btn i{
-  
     margin-left: 10px;
 }
 
 .journey-img {
-    width: 50%;
-    
+    flex: 1; 
+    background-image: url(../images/Circle\ design.svg); 
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .journey-img img{
-    width: 100%;
+    width: 75%;
+    margin-left: 10%;
+}
+
+/* sponsors company related styles */
+.sponsor-company{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    margin: 50px auto;
 }
