@@ -43,6 +43,11 @@
         gap: 30px;
         
     }
+   
+    .collection-items{
+        grid-template-columns: repeat(1, 1fr);
+        
+    }
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
