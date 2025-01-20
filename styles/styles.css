@@ -17,7 +17,7 @@
     background-color: #E02C6D;
     border: none;
 }
-.navbar-brand i{
+.nav-icon {
     display: none;
 }
 
@@ -79,7 +79,7 @@ nav ul li a{
 
 .journey-img {
     flex: 1; 
-    background-image: url(/images/Circle\ design.svg); 
+    background-image: url("/images/Circle\ design.svg"); 
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;

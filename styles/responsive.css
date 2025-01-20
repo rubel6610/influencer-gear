@@ -22,7 +22,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    .navbar-brand i{
+    .nav-icon{
         display: flex;
         font-size: 1.5rem; 
     }
@@ -45,7 +45,9 @@
     }
 }
 
-@media screen (min-width:576px) and (max-width:992px) {
-            
+@media screen and (min-width:576px) and (max-width:992px) {
+    .sponsor-company{
+       grid-template-columns: repeat(4, 1fr);
+    }
 
     }
