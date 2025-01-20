@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.poppins-regular {
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* shared style */
+.btn-primary{
+    color:white;
+    background-color: #E02C6D;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin:1.5rem;
+}
+.navbar-brand{
+    font-size: 1.50rem;
+    font-weight: bold;
+    
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 1.25rem;
+    color: black;
+}
+
+.start-journey{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+}
+.journey-content{
+    width: 50%;
+}
+.start-journey .journey-content h1{
+    font-size: 2.8rem;
+    font-weight: bold;
+   
+}
+.start-journey .journey-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+    width: 90%;
+}
+.prebook-btn{
+    border-radius: 35px;
+    font-size: 1rem;
+    padding: 10px 40px;
+}
+.prebook-btn i{
+  
+    margin-left: 10px;
+}
+
+.journey-img {
+    width: 50%;
+    
+}
+.journey-img img{
+    width: 100%;
+}
