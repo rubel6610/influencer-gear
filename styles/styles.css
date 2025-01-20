@@ -79,14 +79,14 @@ nav ul li a{
 
 .journey-img {
     flex: 1; 
-    background-image: url("/images/Circle\ design.svg"); 
+    background-image: url("/images/Circle-design.svg"); 
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .journey-img img{
     width: 75%;
-    margin-left: 10%;
+    margin-left: 20%;
 }
 
 /* sponsors company related styles */
