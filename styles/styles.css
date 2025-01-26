@@ -17,6 +17,10 @@
     background-color: #E02C6D;
     border: none;
 }
+.btn-primary:hover{
+    background-color: rgba(1, 11, 68, 0.921);
+    color:#fff;
+}
 .nav-icon {
     display: none;
 }
@@ -42,12 +46,16 @@ nav ul li{
 }
 nav ul li a{
     text-decoration: none;
-    /* padding: 10px; */
+    padding: 10px;
     font-size: 1rem;
     color: black;
     font-weight: 400;
 }
-
+nav ul li a:hover{
+    background-color: #E02C6D;
+    color: #fff;
+}
+/* journey related  */
 .start-journey{
     width: 80%;
     display: flex;
@@ -82,7 +90,7 @@ nav ul li a{
     background-image: url("../images/Circle-design.svg"); 
     background-position: right;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
 }
 .journey-img img{
     width: 75%;
@@ -115,8 +123,8 @@ nav ul li a{
     gap: 30px;
 }
 .collection-item img{
-    border-radius: 5px;
-
+    border-radius: 18px;
+    width: 100%;
 }
 .collection-item h1{
     font-size: 1.7rem;
@@ -128,4 +136,55 @@ nav ul li a{
 }
 .collection-item p{
     margin:8px 0;
+}
+
+/* featured product related styles */
+
+.feature-product{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    margin:0 auto; 
+}
+
+.feature-product .img-section{
+    width: 40%;
+}
+.feature-product .img-section img{
+    width: 100%;
+}
+.feature-product  .text-content{
+    width: calc(50% - 50px);
+    margin-left:50px;
+}
+.text-content h1{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.text-content p{
+    font-size: 1rem;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.text-content button  {
+    padding: 10px 15px;
+    margin: 10px 0;
+}
+/* footer related styels */
+.footer{
+    text-align: center;
+    color: white;
+    background: rgba(1, 11, 68, 0.921);
+    padding: 60px 0;
+}
+.footer h1{
+    font-weight: 700;
+}
+
+.footer p{
+    font-weight: 300;
+    margin: 3px;
+}
+.footer i{
+    margin: 25px;
 }

@@ -43,16 +43,35 @@
         gap: 30px;
         
     }
-   
     .collection-items{
         grid-template-columns: repeat(1, 1fr);
-        
+        justify-items: center;
     }
+    .feature-product{
+        flex-direction: column;
+        width: 100%;
+    }
+    .feature-product .img-section{
+        width: 98%;
+    }
+.feature-product  .text-content{
+    width: calc(100% - 20px);
+    margin: 20px;
+    text-align: center;
+
+}
 }
 
 @media screen and (min-width:576px) and (max-width:992px) {
     .sponsor-company{
        grid-template-columns: repeat(4, 1fr);
     }
-
+    .collection-items{
+        grid-template-columns: repeat(2, 1fr);
+        
     }
+    .journey-img img{
+        width: 100%;
+        
+    }
+}
