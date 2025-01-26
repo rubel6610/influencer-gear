@@ -32,10 +32,14 @@
     }
     .journey-content{  
         text-align: center;
+        width: 100%;
+    }
+    .journey-img{
+        width: 100%;
     }
     .journey-img img{
-        width: 80%;
-        margin-left: 10%;
+        width: 100%;
+       
     }
     .sponsor-company{
         grid-template-columns: repeat(2, 1fr);
